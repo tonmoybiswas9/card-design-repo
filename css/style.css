@@ -12,16 +12,55 @@ body {
   height: 200px;
   border: 2px solid transparent;
   border-radius: 50%;
+  padding: 10px;
+}
+.image {
+  width: 15%;
+  margin: auto;
 }
 .card-title h2 {
   font-size: 2rem;
   text-align: center;
   text-transform: capitalize;
   font-weight: bold;
+  padding: 5px;
 }
 .card-title p {
   font-size: 1.5rem;
   text-align: center;
   font-weight: 600;
   text-transform: capitalize;
+  padding: 5px;
+}
+.card-description p {
+  text-align: justify;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: 1.1rem;
+  padding: 5px;
+}
+.web {
+  font-size: 1.7rem;
+  color: cornflowerblue;
+  font-style: italic;
+}
+.card-btn button {
+  padding: 20px 40px;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px gray;
+  font-size: 1.3rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  margin: 10px;
+}
+.card {
+  border: 2px solid transparent;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px gray;
+  margin: 10px;
+}
+.card-containar {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
