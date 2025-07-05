@@ -10,12 +10,13 @@ body {
 }
 .image img {
   height: 200px;
-  border: 2px solid transparent;
+  border: 2px solid cornflowerblue;
   border-radius: 50%;
   padding: 10px;
+  margin-top: 10px;
 }
 .image {
-  width: 15%;
+  width: 50%;
   margin: auto;
 }
 .card-title h2 {
@@ -45,14 +46,18 @@ body {
   font-style: italic;
 }
 .card-btn button {
-  padding: 20px 40px;
+  padding: 15px 40px;
   border: 2px solid transparent;
   border-radius: 10px;
   box-shadow: 2px 2px 10px gray;
   font-size: 1.3rem;
   font-weight: 500;
   text-transform: capitalize;
-  margin: 10px;
+  margin: 5px;
+}
+.card-btn button:hover {
+  background-color: cornflowerblue;
+  color: white;
 }
 .card {
   border: 2px solid transparent;
@@ -63,4 +68,19 @@ body {
 .card-containar {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+}
+.card-icon i {
+  font-size: 2rem;
+  padding: 19px;
+  border: 2px solid cornflowerblue;
+  border-radius: 50%;
+  margin: 10px;
+}
+.card-icon {
+  width: 100%;
+  margin: auto;
+}
+.card-icon i:hover {
+  background-color: cornflowerblue;
+  color: white;
 }
